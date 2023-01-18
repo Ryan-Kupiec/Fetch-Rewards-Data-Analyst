@@ -18,6 +18,8 @@ GROUP BY rewardsReceiptStatus
 ORDER BY rewardsReceiptStatus;
 ```
 
+## Third Task: Data quality issues 
+The first steps I take whenever I am evaluating a data set is to look at the dataset as a whole once we load the data in, look at the number of NA values for each of the columns, and use the describe function to evaluate the columns in the dataset. In the quick evaluation of this dataset there were a few issues that surfaced. First issue, was that some of the columns came in as dictionaries. The second issue was that the _id column in the users dataset only had 212 unique values even though there were 495 values. This means that some of the id values are being reused when they should be unique. 
 
 
 
